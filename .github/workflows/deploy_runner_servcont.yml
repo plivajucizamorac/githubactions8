@@ -1,4 +1,4 @@
-name: Deployment (Container)
+name: Deployment (Runner with Service Container)
 # this is the case where a job is ran on a runner machine, but using
 # service container for mongodb
 on:
