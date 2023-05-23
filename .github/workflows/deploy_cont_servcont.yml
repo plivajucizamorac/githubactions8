@@ -1,4 +1,7 @@
 name: Deployment (Container)
+# this is the case where a job is ran on a container which is hosted 
+# on a runner machine, and using a service container for mongodb.
+# in this case networking is easier
 on:
   push:
     branches:
